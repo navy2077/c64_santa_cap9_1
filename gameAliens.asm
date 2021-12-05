@@ -17,8 +17,8 @@ aliensFrameArray        byte   2,   2,   2,   2,   3,   3,   3
 aliensFrame             byte   0
 aliensColorArray        byte   Red, Orange, Blue, Yellow, Red, Green, Blue
 aliensColor             byte   0
-aliensMultiColorArray   byte   True, True, True, True, False, False, False
-aliensMultiColor        byte   0
+aliensMultiColorArray   byte   True, True, True, True, True, True, True
+aliensMultiColor        byte   1
 aliensXHighArray        byte   0,   0,   0,   1,   0,   0,   0
 aliensXHigh             byte   0
 aliensXLowArray         byte  33, 113, 193,  18,  73, 153, 233
