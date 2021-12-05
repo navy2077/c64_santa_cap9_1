@@ -1,4 +1,4 @@
-##{0:0:0:gameMain.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\gameMain.asm
+##{0:0:0:gameMain.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\gameMain.asm
 
 ;===============================================================================
 ; BASIC Loader
@@ -68,7 +68,7 @@ gMLoop
         jmp gMLoop
 
 
-##{0:0:0:gameAliens.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\gameAliens.asm
+##{0:0:0:gameAliens.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\gameAliens.asm
 
 ;===============================================================================
 ; Constants
@@ -382,7 +382,7 @@ gAUIDontRespawn
 
 
 
-##{0:0:0:gameBullets.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\gameBullets.asm
+##{0:0:0:gameBullets.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\gameBullets.asm
 
 ; Sprite top left corner to char coordinates:
 ; int((spr_x-24)/8), int((spr_y-50)/8) 
@@ -630,7 +630,7 @@ gameBullets_Collided
 
 
 
-##{0:0:0:gamePlayer.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\gamePlayer.asm
+##{0:0:0:gamePlayer.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\gamePlayer.asm
 
 ;==============================================================================
 ; Constants
@@ -784,7 +784,7 @@ gPUPEndmove
         rts
 
 
-##{0:0:0:libInput.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\libInput.asm
+##{0:0:0:libInput.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\libInput.asm
 
 ;===============================================================================
 ; Constants
@@ -877,7 +877,7 @@ lIUDelayZero
 
         rts
 
-##{0:0:0:libMath.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\libMath.asm
+##{0:0:0:libMath.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\libMath.asm
 
 ;===============================================================================
 ; Macros/Subroutines
@@ -1083,7 +1083,7 @@ defm    LIBMATH_SUB16BIT_AAVVAA
         sta /5  ; Store sum in MSB of sum
         endm
 
-##{0:0:0:libScreen.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\libScreen.asm
+##{0:0:0:libScreen.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\libScreen.asm
 
 ;===============================================================================
 ; Constants
@@ -1647,7 +1647,7 @@ defm    LIBSCREEN_WAIT_V        ; /1 = Scanline (Value)
 
 
 
-##{0:0:0:libSprite.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\libSprite.asm
+##{0:0:0:libSprite.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\libSprite.asm
 
 ;===============================================================================
 ; Constants
@@ -1984,7 +1984,7 @@ lSoUFinished
 
         rts
 
-##{0:0:0:gameMemory.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\chapter9\gameMemory.asm
+##{0:0:0:gameMemory.prg}C:\GAME_DEV\RETROGAMEDEV.COM\RetroGameDevC64_BookFiles\Chapters\c64_santa_cap9_1\gameMemory.asm
 
 ;===============================================================================
 ; $00-$FF  PAGE ZERO (256 bytes)
